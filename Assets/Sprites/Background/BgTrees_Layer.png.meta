@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Layer_3_01
+      name: BgTrees_Layer_01
       rect:
         serializedVersion: 2
         x: 16
@@ -137,7 +137,7 @@ TextureImporter:
         width: 113
         height: 434
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,7 +150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_3_02
+      name: BgTrees_Layer_02
       rect:
         serializedVersion: 2
         x: 106
@@ -158,7 +158,7 @@ TextureImporter:
         width: 127
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,7 +171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_3_03
+      name: BgTrees_Layer_03
       rect:
         serializedVersion: 2
         x: 406
@@ -179,7 +179,7 @@ TextureImporter:
         width: 165
         height: 434
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,9 +202,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Layer_3_02: -1525884995
-      Layer_3_01: 2048630872
-      Layer_3_03: 1866038602
+      BgTrees_Layer_03: 1866038602
+      BgTrees_Layer_02: -1525884995
+      BgTrees_Layer_01: 2048630872
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

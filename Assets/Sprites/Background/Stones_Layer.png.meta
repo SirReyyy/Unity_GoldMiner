@@ -129,15 +129,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Layer_2_01
+      name: Stones_Layer_01
       rect:
         serializedVersion: 2
         x: 0
         y: 100
-        width: 213
+        width: 106
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -150,7 +150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_2_02
+      name: Stones_Layer_03
       rect:
         serializedVersion: 2
         x: 214
@@ -158,7 +158,7 @@ TextureImporter:
         width: 106
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,7 +171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_2_03
+      name: Stones_Layer_04
       rect:
         serializedVersion: 2
         x: 322
@@ -179,7 +179,7 @@ TextureImporter:
         width: 106
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -192,7 +192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_2_05
+      name: Stones_Layer_05
       rect:
         serializedVersion: 2
         x: 107
@@ -200,7 +200,7 @@ TextureImporter:
         width: 106
         height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,7 +213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_2_04
+      name: Trees_Layer_05
       rect:
         serializedVersion: 2
         x: 0
@@ -221,7 +221,7 @@ TextureImporter:
         width: 107
         height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,7 +234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_2_06
+      name: Stones_Layer_06
       rect:
         serializedVersion: 2
         x: 213
@@ -242,7 +242,7 @@ TextureImporter:
         width: 107
         height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,7 +255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_2_08
+      name: Stones_Layer_07
       rect:
         serializedVersion: 2
         x: 322
@@ -263,7 +263,7 @@ TextureImporter:
         width: 105
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -271,6 +271,27 @@ TextureImporter:
       bones: []
       spriteID: 8a6b11ae0bcbc5342a342d0d67cca383
       internalID: 618363972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stones_Layer_02
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 114
+        width: 103
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ad8e7e85544d747b2d942558ce2376
+      internalID: 965043267
       vertices: []
       indices: 
       edges: []
@@ -286,14 +307,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Layer_2_05: -155133291
-      Layer_2_01: -1419115629
       Layer_2_4: -514510925
-      Layer_2_06: 27055900
-      Layer_2_08: 618363972
-      Layer_2_03: -46878738
-      Layer_2_04: -1112706996
-      Layer_2_02: -733403218
+      Stones_Layer_05: -155133291
+      Stones_Layer_03: -733403218
+      Trees_Layer_05: -1112706996
+      Stones_Layer_01: -1419115629
+      Stones_Layer_07: 618363972
+      Stones_Layer_06: 27055900
+      Stones_Layer_02: 965043267
+      Stones_Layer_04: -46878738
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Layer_1_01
+      name: Trees_Layer_01
       rect:
         serializedVersion: 2
         x: 0
@@ -150,7 +150,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_1_02
+      name: Trees_Layer_02
       rect:
         serializedVersion: 2
         x: 273
@@ -171,7 +171,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_1_03
+      name: Trees_Layer_03
       rect:
         serializedVersion: 2
         x: 488
@@ -192,7 +192,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Layer_1_04
+      name: Trees_Layer_04
       rect:
         serializedVersion: 2
         x: 551
@@ -224,11 +224,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Layer_1_4: -338893770
-      Layer_1_04: 148885558
-      Layer_1_02: -1931880498
+      Trees_Layer_02: -1931880498
+      Trees_Layer_01: 444795494
       Layer_1_0: -1286701725
-      Layer_1_03: 1633984586
-      Layer_1_01: 444795494
+      Trees_Layer_03: 1633984586
+      Trees_Layer_04: 148885558
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
