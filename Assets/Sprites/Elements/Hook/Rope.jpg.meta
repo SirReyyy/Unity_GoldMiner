@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c809702568bedcb429d7152b1413383c
+guid: eb81a766bcf485d43be9214e6ee70c9f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hat_01
+      name: Rope_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 75
-        width: 52
-        height: 45
+        x: 418
+        y: 518
+        width: 153
+        height: 393
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,134 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 833e211df9d9dc54ab4ce8ef2c9067aa
-      internalID: 990696047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Claws_01
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 69
-        width: 52
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f711e6150ba3dd5449378482a14bdfcb
-      internalID: 2056607565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Claws_02
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 69
-        width: 50
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9886dda5c27882141b84ba0711096177
-      internalID: -891268043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Claws_03
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 69
-        width: 50
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 795eabc9a55ff1245a9dbe6ce225f4bb
-      internalID: -1066035818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Claws_04
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 2
-        width: 50
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75dc8495051531245824872d2790b9c4
-      internalID: -1632536768
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Claws_05
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 2
-        width: 49
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed4be7e3bab6dbd43874c89070c42560
-      internalID: -1497234299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Claws_06
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 2
-        width: 50
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bb91c1e2d08d43498d8717b1322dcd3
-      internalID: -1114484245
+      spriteID: 754a3936d1d291b46993dc8cbef7ad0e
+      internalID: 1313512227
       vertices: []
       indices: 
       edges: []
@@ -286,13 +160,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Claws_04: -1632536768
-      Claws_01: 2056607565
-      Hat_01: 990696047
-      Claws_05: -1497234299
-      Claws_02: -891268043
-      Claws_06: -1114484245
-      Claws_03: -1066035818
+      Rope_0: 1313512227
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
