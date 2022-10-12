@@ -150,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815224543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.14, y: -0.25, z: 0}
+  m_LocalPosition: {x: -0.1, y: -0.25, z: 0}
   m_LocalScale: {x: 0.018, y: 0.036, z: 1.1999999}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -198,7 +198,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1313512227, guid: eb81a766bcf485d43be9214e6ee70c9f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -230,7 +230,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: b2ce3147d6b9d72469d5a41daa47ef6e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -323,9 +323,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minRotation_Z: -55
   maxRotation_Z: 55
-  rotation_Speed: 5
+  rotation_speed: 100
   minPosition_Y: -2.5
-  maxPosition_Y: -0.25
   move_speed: 3
   initial_move_speed: 0
 --- !u!1 &1973911567266582900

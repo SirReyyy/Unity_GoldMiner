@@ -5,11 +5,12 @@ using UnityEngine;
 public class HookMovement : MonoBehaviour
 {
     // Hook Movement
-    public float minRotation_Z = -55.0f, maxRotation_Z = 55.0f;
+    public float minRotation_Z = -60.0f, maxRotation_Z = 60.0f;
     public float rotation_speed = 100.0f;
 
-    public float minPosition_Y = -2.5f, maxPosition_Y = -0.25f;
+    public float minPosition_Y = -3.0f;
     private float initial_position_Y;
+    private bool moveDown;
 
     private float rotation_angle;
     private bool rightRotation;
@@ -22,18 +23,19 @@ public class HookMovement : MonoBehaviour
     // private RopeRenderer ropeRenderer;
 
 
-    // Start
     void Start() {
         initial_position_Y = transform.position.y;
         initial_move_speed = move_speed;
         
         canRotate = true;
-    }
+    } // --- Start Function --- //
 
-    // Update
+    
     void Update() {
         Rotate();
-    }
+        GetInput();
+        FireHook();
+    } // --- Update Function --- //
 
     void Rotate() {
         if(!canRotate)
@@ -52,5 +54,46 @@ public class HookMovement : MonoBehaviour
         } else if(rotation_angle <= minRotation_Z) {
             rightRotation = true;
         }
-    }
+    } // --- Rotate Function --- //
+
+    void GetInput() {
+        if(Input.GetMouseButtonDown(0)) {
+            if(canRotate) {
+                canRotate = false;
+                moveDown = true;
+            }
+        }
+    } // --- GetInput Function --- //
+
+    void FireHook () {
+        if(canRotate)
+            return;
+
+        if(!canRotate) {
+            // SoundManager.instance.RopeStretch(true);
+
+            Vector3 temp = transform.position;
+
+            if(moveDown) {
+                temp -= transform.up * Time.deltaTime * move_speed;
+            } else {
+                temp += transform.up * Time.deltaTime * move_speed;
+            }
+
+            transform.position = temp;
+
+            if(temp.y <= minPosition_Y) {
+                moveDown = false;
+            }
+
+            if(temp.y >= initial_position_Y) {
+                canRotate = true;
+                // deactivate line render
+                move_speed = initial_move_speed;
+                // SoundManager.instance.RopeStretch(false);
+            }
+
+            // ropeRenderer.RenderLine(temp, true);
+        }
+    } // --- DropHook Function --- //
 }
