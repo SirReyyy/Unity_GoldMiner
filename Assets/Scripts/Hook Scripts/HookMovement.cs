@@ -19,9 +19,12 @@ public class HookMovement : MonoBehaviour
     public float move_speed = 10.0f;
     public float initial_move_speed;
 
-    // Line Renderer
-    // private RopeRenderer ropeRenderer;
+    private RopeRenderer ropeRenderer;
 
+
+    void Awake() {
+        ropeRenderer = GetComponent<RopeRenderer>();
+    } // --- Awake Function --- //
 
     void Start() {
         initial_position_Y = transform.position.y;
@@ -81,6 +84,7 @@ public class HookMovement : MonoBehaviour
             }
 
             transform.position = temp;
+            temp.x = transform.position.x;
 
             if(temp.y <= minPosition_Y) {
                 moveDown = false;
@@ -88,12 +92,13 @@ public class HookMovement : MonoBehaviour
 
             if(temp.y >= initial_position_Y) {
                 canRotate = true;
-                // deactivate line render
+                ropeRenderer.RenderLine(temp, false);
                 move_speed = initial_move_speed;
                 // SoundManager.instance.RopeStretch(false);
             }
 
-            // ropeRenderer.RenderLine(temp, true);
+            ropeRenderer.RenderLine(temp, true);
         }
     } // --- DropHook Function --- //
-}
+    
+} // --- END --- //
