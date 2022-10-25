@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Item_Barrel
+  - Item_Coins
+  - Item_GoldS
+  - Item_GoldM
+  - Item_GoldL
+  - Item_Ruby
+  - Item_Emerald
+  - Item_StoneS
+  - Item_StoneM
+  - Item_Delivered
   layers:
   - Default
   - TransparentFX
